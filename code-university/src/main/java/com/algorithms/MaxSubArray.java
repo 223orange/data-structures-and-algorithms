@@ -2,7 +2,7 @@ package com.algorithms;
 
 /**
  * Implementation of max sub array algorithm from the book "Introduction to algorithms 3rd edition"
- *
+ * Algorithm complexity: Θ(nlgn)
  */
 public class MaxSubArray {
 
@@ -31,7 +31,7 @@ public class MaxSubArray {
     }
     public static int[] findMaxSubarray ( int[] array, int low, int high){
         if (high == low) {
-            return new int[]{low, high, array[low]};
+            return new int[]{low, high, array[low]}; //base case: only one element
         } else {
             int mid = (low + high) / 2;
             int[] left_subarray = findMaxSubarray(array, low, mid);
