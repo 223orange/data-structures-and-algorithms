@@ -38,7 +38,7 @@
       <file leaf-file-name="LinearProbingHashTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/LinearProbingHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
+            <state relative-caret-position="2800">
               <caret line="112" column="43" lean-forward="false" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,17 +46,16 @@
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#3113#3125#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="11750">
+              <caret line="470" column="17" lean-forward="false" selection-start-line="470" selection-start-column="17" selection-end-line="470" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2576#2577#0" expanded="true" />
@@ -69,10 +68,19 @@
                 <element signature="e#10245#10246#0" expanded="true" />
                 <element signature="e#16441#16442#0" expanded="true" />
                 <element signature="e#16476#16477#0" expanded="true" />
-                <element signature="e#16919#16925#0" expanded="true" />
                 <element signature="e#18016#18017#0" expanded="true" />
                 <element signature="e#18062#18063#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/MaxSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dataStructures/HashTableArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataStructures/LinearProbingHashTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataStructures/BST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithms/MaxSubArray.java" />
       </list>
     </option>
   </component>
@@ -149,8 +158,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,13 +198,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructureImplementations" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-university" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dataStructures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,7 +499,8 @@
       <workItem from="1527417521351" duration="236000" />
       <workItem from="1528775552901" duration="1090000" />
       <workItem from="1528859225307" duration="1170000" />
-      <workItem from="1534304024734" duration="6176000" />
+      <workItem from="1534304024734" duration="6938000" />
+      <workItem from="1542429989539" duration="607000" />
     </task>
     <servers />
   </component>
@@ -518,10 +537,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34170000" />
+    <option name="totallyTimeSpent" value="35539000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="-8" width="2383" height="1456" extended-state="6" />
+    <frame x="213" y="-8" width="2355" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -536,7 +555,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14980629" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22309369" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -584,6 +603,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11500">
+          <caret line="470" column="17" lean-forward="true" selection-start-line="470" selection-start-column="17" selection-end-line="470" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2576#2577#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#2783#2784#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#3844#3845#0" expanded="true" />
+            <element signature="e#3881#3882#0" expanded="true" />
+            <element signature="e#10199#10200#0" expanded="true" />
+            <element signature="e#10245#10246#0" expanded="true" />
+            <element signature="e#16441#16442#0" expanded="true" />
+            <element signature="e#16476#16477#0" expanded="true" />
+            <element signature="e#18016#18017#0" expanded="true" />
+            <element signature="e#18062#18063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/LinearProbingHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2675">
@@ -594,7 +635,38 @@
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#3113#3125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/QueueLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/ResizableArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/LinearProbingHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="112" column="43" lean-forward="false" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,7 +699,6 @@
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#3113#3125#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/LinearProbingHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
+        <state relative-caret-position="2800">
           <caret line="112" column="43" lean-forward="false" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -741,15 +812,14 @@
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
             <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#3113#3125#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataStructures/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="11750">
+          <caret line="470" column="17" lean-forward="false" selection-start-line="470" selection-start-column="17" selection-end-line="470" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2576#2577#0" expanded="true" />
@@ -762,10 +832,17 @@
             <element signature="e#10245#10246#0" expanded="true" />
             <element signature="e#16441#16442#0" expanded="true" />
             <element signature="e#16476#16477#0" expanded="true" />
-            <element signature="e#16919#16925#0" expanded="true" />
             <element signature="e#18016#18017#0" expanded="true" />
             <element signature="e#18062#18063#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
