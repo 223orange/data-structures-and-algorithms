@@ -29,24 +29,23 @@ public class MaxSubArray {
         }
         return new int[]{max_left, max_right, left_sum + right_sum};
     }
-    public static int[] findMaxSubarray ( int[] array, int low, int high){
+        public static int[] findMaxSubarray ( int[] array, int low, int high){
         if (high == low) {
             return new int[]{low, high, array[low]}; //base case: only one element
+        }
+        int mid = (low + high) / 2;
+        int[] left_subarray = findMaxSubarray(array, low, mid);
+        int[] right_subarray = findMaxSubarray(array, mid + 1, high);
+        int[] cross_subarray = findMaxCrossSubarray(array, low, mid, high);
+        int left_sum = left_subarray[2];
+        int right_sum = right_subarray[2];
+        int cross_sum = cross_subarray[2];
+        if (left_sum >= right_sum && left_sum >= cross_sum) {
+            return left_subarray;
+        } else if (right_sum >= left_sum && right_sum >= cross_sum) {
+            return right_subarray;
         } else {
-            int mid = (low + high) / 2;
-            int[] left_subarray = findMaxSubarray(array, low, mid);
-            int[] right_subarray = findMaxSubarray(array, mid + 1, high);
-            int[] cross_subarray = findMaxCrossSubarray(array, low, mid, high);
-            int left_sum = left_subarray[2];
-            int right_sum = right_subarray[2];
-            int cross_sum = cross_subarray[2];
-            if (left_sum >= right_sum && left_sum >= cross_sum) {
-                return left_subarray;
-            } else if (right_sum >= left_sum && right_sum >= cross_sum) {
-                return right_subarray;
-            } else {
-                return cross_subarray;
-            }
+            return cross_subarray;
         }
     }
     public static void main(String[] args) {
